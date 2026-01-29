@@ -1,189 +1,107 @@
 cv:
-  name: Albert Einstein
-  label: Scientist
-  email: einstein@example.com
-  location: Princeton, NJ
-  image: ""
-  summary: A German-born theoretical physicist, widely ranked among the greatest and most influential scientists of all time
-
+  name: Jeffrey McCrossin, PhD
+  label: Social Worker | Couple and Family Therapist | Clinical Supervisor
+  email: mccrossj@mcmaster.ca
+  location: Hamilton, ON & Montreal, QC
+  summary: >
+    Clinician-researcher who blends clinical social work, couple and family therapy, and
+    implementation science to improve services for families of neurodiverse children. My
+    work is rooted in equity, Indigenous partnership, and caregiver peer support across
+    hospital, community, and private practice settings.
   social_networks:
-    - network: X
-      username: AlbertEinstein
-    - network: GitHub
-      username: example
     - network: LinkedIn
-      username: example
-
+      username: jeff-mccrossin
+    - network: ORCID
+      username: 0000-0002-1054-2837
   address:
-    street: 2712 Broadway St
-    city: San Francisco
-    region: California
-    postalCode: CA 94115
-    countryCode: US
-
+    city: Hamilton
+    region: Ontario
+    countryCode: CA
   sections:
+    Highlights:
+      - bullet: Clinician-researcher specializing in family-centred, equity-oriented mental health care for neurodiverse children and their caregivers.
+      - bullet: Over fifteen years of clinical experience in family therapy, neurorehabilitation, and community mental health.
+      - bullet: Leads community-engaged research with Indigenous and diverse families to adapt caregiver peer support models and implementation strategies.
+      - bullet: Secured over $740,000 in peer-reviewed funding (SSHRC, FRQS, KBHN, and McMaster fellowships) while serving as a primary investigator and funded trainee.
+      - bullet: Author of 13 peer-reviewed articles on family resilience, caregiver navigation, and inclusive supports, and recipient of teaching and leadership awards.
     Education:
-      - institution: University of Zurich
-        location: Zurich, Switzerland
-        url: https://www.uzh.ch/
-        area: Physics
-        studyType: PhD
-        start_date: 1900
-        end_date: 1905
-        score: ""
-        courses: "Theory of Relativity"
+      - institution: McGill University
+        location: Montreal, QC
+        area: Social Work
+        studyType: PhD in Social Work
+        end_date: 2025
         highlights:
-          - Description 1.
-          - Description 2.
-
-      - institution: Eidgenössische Technische Hochschule
-        location: Zurich, Switzerland
-        area: Physics
-        studyType: Federal teaching diploma
-        start_date: 1896
-        end_date: 1900
+          - Supervisor: Dr. Lucyna Lach
+          - Dissertation: Pathways of resilience in families of children with neurodisabilities
+      - institution: McGill University
+        location: Montreal, QC
+        studyType: MSc(A) in Couple and Family Therapy
+        end_date: 2019
         highlights:
-          - Description 1.
-          - Description 2.
-
+          - Internship: Institute of Community and Family Psychiatry, Jewish General Hospital
+      - institution: Carleton University
+        location: Ottawa, ON
+        studyType: Master of Social Work
+        end_date: 2012
+        highlights:
+          - Internships: Children's Hospital of Eastern Ontario outpatient mental health and the First Nations Child and Family Caring Society with Dr. Cindy Blackstock
+      - institution: Thompson Rivers University
+        location: Kamloops, BC
+        studyType: Graduate Certificate in Child and Youth Mental Health
+        end_date: 2010
+        highlights:
+          - Internship: Nova Scotia Health Authority ADHD and Sleep Clinics with Dr. Penny Corkum
+      - institution: Dalhousie University
+        location: Halifax, NS
+        studyType: Bachelor of Science (Psychology)
+        end_date: 2006
     Experience:
-      - company: Institute for Advanced Study, Princeton University
-        position: Professor of Theoretical Physics
-        location: Princeton University, NJ
-        start_date: 1933
-        end_date: 1955
-        summary: Teaching at Palmer Physical Laboratory (now 302 Frist Campus Center). While not a professor at Princeton, I associated with the physics professors and continued to give lectures on campus.
+      - position: Postdoctoral Fellow
+        name: Offord Centre for Child Studies, Department of Psychiatry and Behavioural Neurosciences, McMaster University
+        location: Hamilton, ON
+        start_date: 2025
+        end_date: Present
+        summary: Adaptation and implementation of the Family Check-Up for families with complex support needs, equity-focused implementation science, and community-engaged research with Indigenous and diverse communities.
         highlights:
-          - Relativity
-          - Description 2.
-
-      - company: California Institute of Technology
-        position: Visiting Professor
-        location: Pasadena, California, US
-        start_date: 1933
-        end_date: 1933
+          - Supervisor: Dr. Teresa Bennett, Jack Laidlaw Endowed Chair in Patient-Centred Care
+      - position: Clinical Social Worker, Couple and Family Therapist, Psychotherapist, Clinical Supervisor
+        name: Private Practice
+        location: Sainte-Agathe-des-Monts & Montreal, QC
+        start_date: 2019
+        end_date: Present
+        summary: Provides bilingual psychotherapy, clinical supervision, and training to families living with neurodisability, brain injury, and mental health concerns across Quebec and Ontario.
         highlights:
-          - Description 1.
-          - Description 2.
-
-      - company: Kaiser Wilhelm Institute for Physics
-        position: Director
-        location: Berlin, Germany
-        start_date: 1917
-        end_date: 1933
-
-      - company: Karl-Ferdinand University
-        position: Professor of Theoretical Physics
-        location: Prague, Czechoslovakia
-        start_date: 1911
-        end_date: 1917
-
-      - company: University of Zurich
-        position: Associate Professor of Theoretical Physics
-        location: Zurich, Switzerland
-        start_date: 1909
-        end_date: 1911
-
-    Volunteer:
-      - company: People's Climate March
-        position: Lead Organizer
-        location: Zurich, Switzerland
-        start_date: 2014-04-01
-        end_date: 2015-07-01
-        summary: Lead organizer for the New York City branch of the People's Climate March, the largest climate march in history.
-        highlights:
-          - "Awarded 'Climate Hero' award by Greenpeace for my efforts organizing the march."
-          - "Men of the year 2014 by Time magazine"
-
-    Awards:
-      - title: Nobel Prize in Physics
-        authors:
-          - "Royal Swedish Academy of Sciences"
-        date: 1921-11-01
-        awarder: Royal Swedish Academy of Sciences
-        url: https://www.nobelprize.org/prizes/physics/1921/einstein/biographical/
-        summary: The Nobel Prizes are five separate prizes that, according to Alfred Nobel's will of 1895, are awarded to 'those who, during the preceding year, have conferred the greatest benefit to humankind.'
-
-      - title: Max Planck Medal
-        authors:
-          - "German Physical Society"
-        date: 2029
-        awarder: German Physical Society
-        summary: Awarded for outstanding scientific achievement
-
-    Publications:
-      - title: Zur Elektrodynamik bewegter Körper
-        authors:
-          - Albert Einstein
-        publisher: Annalen der Physik
-        releaseDate: 1905-06-30
-        url: https://en.wikisource.org/wiki/Translation:On_the_Electrodynamics_of_Moving_Bodies
-        summary: It concerned an interpretation of the Michelson–Morley experiment and the properties of light and time. Special relativity incorporates the principle that the speed of light is the same for all inertial observers regardless of the state of motion of the source.
-
-      - title: Über einen die Erzeugung und Verwandlung des Lichtes betreffenden heuristischen Gesichtspunkt
-        authors:
-          - Albert Einstein
-        publisher: Annalen der Physik
-        releaseDate: 1905-03-18
-        url: https://de.wikisource.org/wiki/Über_einen_die_Erzeugung_und_Verwandlung_des_Lichtes_betreffenden_heuristischen_Gesichtspunkt
-        summary: In the second paper, he applied the quantum theory to light to explain the photoelectric effect. In particular, he used the idea of light quanta (photons) to explain experimental results, but stressed the importance of the experimental results. The importance of his work on the photoelectric effect earned him the Nobel Prize in Physics in 1921.
-
-      - title: Die Grundlage der allgemeinen Relativitätstheorie
-        authors:
-          - Albert Einstein
-        publisher: Annalen der Physik
-        releaseDate: 1916-03-20
-        url: https://de.wikisource.org/wiki/Die_Grundlage_der_allgemeinen_Relativitätstheorie
-        summary: The publication of the theory of general relativity made him internationally famous. He was professor of physics at the universities of Zurich (1909–1911) and Prague (1911–1912), before he returned to ETH Zurich (1912–1914).
-
-    Skills:
-      - name: Physics
-        level: Master
-        icon: fa-solid fa-hashtag
-        keywords: "Quantum Mechanics, Quantum Computing, Quantum Information, Quantum Cryptography, Quantum Communication, Quantum Teleportation"
-
+          - Workshops and consultations for clinicians implementing inclusive, caregiver-centred services
+      - position: Invited Visiting Doctoral Scholar
+        name: Universite Paris Cite - Institut de Psychologie
+        location: Paris, France
+        start_date: 2024
+        end_date: 2024
+        summary: Laboratory visit with the Laboratoire de Psychopathologie et Processus de Sante (UR 4057) supporting cross-Atlantic collaborations on family resilience and caregiving research.
+    "Grants & Awards":
+      - bullet: 2026 - Michael G. DeGroote Postdoctoral Fellowship in Clinical Research (Faculty of Health Sciences, McMaster University, $50,000).
+      - bullet: 2026 - Kids Brain Health Network Indigenous Stream Connection Grant for Walking Together in Care partnership (McMaster Children's Hospital & community partners, $25,000).
+      - bullet: 2025-2026 - Offord Centre for Child Studies Postdoctoral Fellowship Award (Hamilton Health Sciences Foundation, $20,000).
+      - bullet: 2020-2024 - SSHRC Joseph-Armand Bombardier Canada Graduate Doctoral Scholarship ($140,000).
+      - bullet: 2020-2025 - FRQS doctoral fellowship ($157,292; declined in favor of SSHRC).
+      - bullet: 2023 - Kids Brain Health Network Outstanding Promising Researcher Award and Graduate Student Teaching Award (McGill University, Faculty of Arts).
+    "Service & Engagement":
+      - bullet: 2024 - Board Member, Centre de la petite enfance Bambouli (Sainte-Agathe-des-Monts, Quebec).
+      - bullet: 2024 - Chair, self-care for caregivers panel (CP-Net Science and Family Day conference, Ontario/Online).
+      - bullet: 2022 - Fellowship funding workshop developer and peer mentor for provincial/tri-council competition applicants (McGill Faculty of Arts).
+      - bullet: 2021 - Organizer for community panels and research training events that advanced autistic community engagement (Transforming Autism Care Consortium, Quebec Autism Research Training Program).
+    "Teaching & Supervision":
+      - bullet: Developed and lectured graduate Theories and Models of Family Therapy (Department of Educational and Counselling Psychology; McGill University, Fall 2021 and Fall 2025).
+      - bullet: Lecturer for Practice with Individuals and Families, School of Social Work (McGill University, Winter 2022) and recipient of the Graduate Student Teaching Award.
+      - bullet: Clinical supervisor for emerging clinicians (private practice and hospital settings) with ongoing mentorship from McGill-affiliated supervisors.
+    "Professional Development":
+      - bullet: 2026 - Introductory Kanyen'keha (Mohawk) language course emphasizing Haudenosaunee worldviews and language revitalization.
+      - bullet: 2025 - Sanyas Anti-Indigenous Racism and Cultural Safety Training Program.
+      - bullet: 2025 - Implementation Science Mini-Course (UCSF Centre for Healthcare Improvement and Medical Effectiveness).
+      - bullet: 2024 - Core competency module for sex and gender in primary data collection with human participants (CIHR Institute of Gender and Health).
+      - bullet: 2023-2025 - The Family Check-Up and ENVISAGE service provider workshop series (Hamilton Health Sciences & McMaster University) for family-centred assessment and intervention.
     Languages:
-      - name: German
-        summary: "Native speaker"
-
       - name: English
-        summary: "Fluent"
-
-    Interests:
-      - name: Physics
-        icon: fa-solid fa-tag
-        keywords: "Quantum Mechanics, Quantum Computing, Quantum Information, Quantum Cryptography, Quantum Communication, Quantum Teleportation"
-
-    Certificates:
-      - name: Machine Learning
-        date: 2018-01-01
-        issuer: Stanford University
-        icon: fa-solid fa-location-dot
-
-      - name: Quantum Computing
-        date: 2018-01-01
-        issuer: Stanford University
-        icon: fa-solid fa-tag
-
-      - name: Quantum Information
-        date: 2018-01-01
-        issuer: Stanford University
-        icon: fa-solid fa-envelope
-
-    Projects:
-      - name: Quantum Computing
-        summary: Quantum computing is the use of quantum-mechanical phenomena such as superposition and entanglement to perform computation. Computers that perform quantum computations are known as quantum computers.
-        highlights:
-          - Quantum Teleportation
-          - Quantum Cryptography
-        start_date: 2018-01-01
-        end_date: 2018-01-01
-
-    References:
-      - name: Professor John Doe
-        icon: fa-solid fa-laptop
-        reference: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam condimentum, diam quis convallis euismod, arcu mi ullamcorper lorem, a vestibulum nunc magna at sem. Sed in risus ac felis varius blandit.
-
-      - name: Professor Jane Smith
-        icon: fa-solid fa-thumbtack
-        reference: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam condimentum, diam quis convallis euismod, arcu mi ullamcorper lorem, a vestibulum nunc magna at sem. Sed in risus ac felis varius blandit.
+        summary: Native speaker
+      - name: Francais
+        summary: Attestation de l'Office quebecois de la langue francaise (2018) certifying competency for social work and couple and family therapy practice in Quebec.
