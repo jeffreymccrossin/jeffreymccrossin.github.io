@@ -12,7 +12,7 @@ profile:
     <p>Based in Hamilton &amp; Montreal, Canada</p>
     <p><a href="https://www.linkedin.com/in/jeff-mccrossin">LinkedIn</a> • <a href="https://orcid.org/0000-0002-1054-2837">ORCID 0000-0002-1054-2837</a></p>
 
-selected_papers: true # includes a list of papers marked as "selected={true}"
+selected_papers: false # includes a list of papers marked as "selected={true}"
 social: true # includes social icons at the bottom of the page
 
 announcements:
