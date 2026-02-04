@@ -1,0 +1,5 @@
+{% assign current_lang = page.lang | default: site.lang | downcase %}
+<nav class="language-toggle" aria-label="Language switcher">
+  <a class="lang-pill {% if current_lang == 'en' %}active{% endif %}" href="{{ '/' | relative_url }}">EN</a>
+  <a class="lang-pill {% if current_lang == 'fr' %}active{% endif %}" href="{{ '/fr/' | relative_url }}">FR</a>
+</nav>

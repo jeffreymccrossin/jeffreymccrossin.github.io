@@ -2,6 +2,7 @@
 layout: about
 title: about
 permalink: /
+lang: en
 subtitle: Community-engaged clinical social worker, couple and family therapist, and implementation science researcher supporting neurodiverse families.
 
 profile:

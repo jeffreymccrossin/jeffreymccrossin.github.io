@@ -40,6 +40,29 @@ body.sticky-bottom-footer {
   }
 }
 
+.language-toggle {
+  display: inline-flex;
+  gap: 0.4rem;
+  margin-top: 0.4rem;
+
+  .lang-pill {
+    border: 1px solid var(--global-divider-color);
+    border-radius: 999px;
+    color: var(--global-text-color);
+    font-size: 0.75rem;
+    font-weight: 600;
+    line-height: 1;
+    padding: 0.3rem 0.6rem;
+    text-decoration: none;
+  }
+
+  .lang-pill.active {
+    background-color: var(--global-theme-color);
+    border-color: var(--global-theme-color);
+    color: var(--global-bg-color);
+  }
+}
+
 // Content layout uses Bootstrap's grid system with responsive columns
 // Main content flows naturally through container-mt-5 and Bootstrap grid classes
 // See _layouts/default.liquid and _includes/projects.liquid for examples
