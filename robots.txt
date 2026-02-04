@@ -1,0 +1,4 @@
+User-agent: *
+Disallow:
+
+Sitemap: https://jeffreymccrossin.github.io/sitemap.xml
