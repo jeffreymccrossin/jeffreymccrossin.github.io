@@ -1,0 +1,106 @@
+/* Prevent word hyphenation and mid-word breaks */
+body {
+  hyphens: none;
+  -webkit-hyphens: none;
+  -ms-hyphens: none;
+  word-break: keep-all;
+  overflow-wrap: normal;
+}
+
+/* Tight CV header layout */
+.cv-header {
+  text-align: center;
+  margin-bottom: 0.75rem;
+}
+.cv-name {
+  font-size: 2rem;
+  font-weight: 700;
+  line-height: 1.1;
+  margin-bottom: 0.25rem;
+}
+.cv-doc-title {
+  font-size: 1.1rem;
+  font-weight: 600;
+  letter-spacing: 0.02em;
+  margin-bottom: 0.25rem;
+}
+
+/* Tighten space after level-1 headings */
+h1 {
+  margin: 0.6rem 0 0.35rem 0 !important;
+}
+h2 {
+  margin: 0.5rem 0 0.3rem 0 !important;
+}
+.cv-title {
+  line-height: 1.25;
+}
+.cv-contact {
+  margin-top: 0.35rem;
+  font-size: 0.95rem;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.4rem;
+  justify-content: center;
+  align-items: center;
+}
+.cv-contact i {
+  margin-right: 0.25rem;
+}
+.cv-sep {
+  opacity: 0.6;
+}
+#quarto-margin-sidebar {
+  display: flex;
+  flex-direction: column;
+}
+.cv-sidebar-links {
+  margin-top: auto;
+  padding-top: 0.75rem;
+  font-size: 0.9rem;
+  display: none;
+  flex-wrap: wrap;
+  gap: 0.4rem;
+  align-items: center;
+}
+#quarto-margin-sidebar .cv-sidebar-links {
+  display: flex;
+}
+.cv-formats-label {
+  font-weight: 600;
+}
+
+/* APA-style hanging indents for publications */
+.hanging {
+  padding-left: 1.5em;
+  text-indent: -1.5em;
+}
+
+/* Tighten space between document title and header */
+.quarto-title-block {
+  margin: 0;
+  padding: 0;
+}
+.quarto-title-block .title {
+  margin: 0;
+}
+.quarto-title {
+  margin: 0;
+}
+.quarto-title-meta {
+  margin: 0;
+  padding: 0;
+  min-height: 0;
+}
+.cv-header {
+  margin-top: 0.1rem;
+}
+.quarto-title-block.default {
+  margin-bottom: 0.1rem;
+}
+
+/* Keep teaching table text left-aligned */
+.teaching-table th,
+.teaching-table td {
+  text-align: left;
+}
