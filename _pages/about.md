@@ -6,7 +6,7 @@ subtitle: Community-engaged clinical social worker, couple and family therapist,
 
 profile:
   align: right
-  image: prof_pic_color.png
+  image: McCrossin_headshot_mcmaster_2025copy.png
   image_circular: false # crops the image to make it circular
   more_info: >
     <p>Based in Hamilton &amp; Montreal, Canada</p>
