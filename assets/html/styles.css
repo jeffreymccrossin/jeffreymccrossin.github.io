@@ -7,6 +7,16 @@ body {
   overflow-wrap: normal;
 }
 
+/* Use neutral hyperlink colors (not default blue) */
+a,
+a:visited {
+  color: #1f1f1f;
+}
+a:hover,
+a:focus {
+  color: #000;
+}
+
 /* Tight CV header layout */
 .cv-header {
   text-align: center;
@@ -34,6 +44,13 @@ h2 {
 }
 .cv-title {
   line-height: 1.25;
+}
+.cv-language-switch {
+  margin-top: 0.4rem;
+  display: flex;
+  justify-content: center;
+  gap: 0.4rem;
+  font-size: 0.9rem;
 }
 .cv-contact {
   margin-top: 0.35rem;
