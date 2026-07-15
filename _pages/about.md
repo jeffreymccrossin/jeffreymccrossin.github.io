@@ -10,7 +10,7 @@ profile:
   image: McCrossin_headshot_mcmaster_2025copy.png
   image_circular: false # crops the image to make it circular
   more_info: >
-    <p>Based in Hamilton &amp; Montreal, Canada</p>
+    <p>Montréal, Canada</p>
 
 selected_papers: false # includes a list of papers marked as "selected={true}"
 social: true # includes social icons at the bottom of the page
@@ -26,8 +26,8 @@ latest_posts:
   limit: 3 # leave blank to include all the blog posts
 ---
 
-Jeffrey McCrossin, PhD, is a clinical social worker, couple and family therapist, and clinical supervisor who partners with families of neurodiverse children across hospital, community, and private practice settings. He is currently a postdoctoral fellow at the [Offord Centre for Child Studies](https://offordcentre.com/) (McMaster University) and was an invited visiting scholar at Université Paris Cité's Institut de Psychologie. He leads applied research on adapting the Family Check-Up® model, caregiver peer support, and equity-focused implementation science in partnership with Indigenous and diverse communities.
+Jeffrey McCrossin, PhD, is an assistant professor in the School of Psychoeducation at Université de Montréal, as well as a clinical social worker, couple and family therapist, psychotherapist, and clinical supervisor. His work focuses on family-centred and equity-oriented approaches to child and family mental health, neurodiversity, and caregiver support.
 
-His work spans clinical care, supervision, teaching, and scholarship—he maintains a private practice in the province of Quebec, supervises emerging clinicians, and teaches graduate and undergraduate courses in family therapy and social work. He has authored <a href="{{ '/assets/html/Jeffrey_McCrossin_CV_2026.html#peer-reviewed-articles' | relative_url }}">13 peer-reviewed publications</a> on family well-being, caregiver peer support, and neurodisability, and his contributions were recognized with awards including SSHRC, FRQS, and the Kids Brain Health Network Outstanding Promising Researcher Award.
+Drawing on more than 15 years of clinical experience, he leads community-engaged research with families, service organizations, and Indigenous and diverse communities. His current work examines the adaptation and implementation of family interventions, caregiver peer support, and strategies for strengthening family resilience and well-being.
 
-Outside of research, he serves on community and research boards, organizes workshops, and mentors trainees in inclusive and resilient family-centred practice. Please feel free to reach out by email for research, supervision, or clinical collaboration inquiries.
+Jeffrey's [publications](https://orcid.org/0000-0002-1054-2837) and broader scholarship are grounded in collaboration among families, practitioners, researchers, and community partners. Alongside his research and teaching, he maintains a clinical practice in Quebec and supervises emerging clinicians. He welcomes opportunities for research, teaching, supervision, and community collaboration.
