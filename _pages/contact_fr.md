@@ -7,6 +7,8 @@ nav: false
 description: Communiquez pour des demandes de recherche, de supervision, d'enseignement ou de collaboration clinique.
 ---
 
+{% include language-toggle.liquid en_url="/contact/" fr_url="/fr/contact/" %}
+
 <div class="post">
   <article>
     <p>

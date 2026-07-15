@@ -7,6 +7,8 @@ nav_order: 2
 description: Get in touch for research, clinical, teaching, or collaboration inquiries.
 ---
 
+{% include language-toggle.liquid en_url="/contact/" fr_url="/fr/contact/" %}
+
 <div class="post">
   <article>
     <p>
