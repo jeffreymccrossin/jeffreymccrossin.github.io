@@ -93,10 +93,11 @@ ul.task-list li input[type="checkbox"] {
     var content = document.querySelector("main.content");
     var target = document.getElementById("toc-cover-list");
     if (!content || !target) return;
-    var headings = content.querySelectorAll("h1[id]");
+    var headings = content.querySelectorAll("h1");
     var ul = document.createElement("ul");
-    headings.forEach(function (h) {
+    headings.forEach(function (h, index) {
       if (h.id === "toc-anchor") return;
+      if (!h.id) h.id = "section-fr-" + (index + 1);
       var li = document.createElement("li");
       var a = document.createElement("a");
       a.href = "#" + h.id;
