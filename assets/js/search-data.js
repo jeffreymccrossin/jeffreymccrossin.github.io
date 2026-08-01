@@ -472,6 +472,13 @@ ninja.data = [{
           window.open("https://orcid.org/0000-0002-1054-2837", "_blank");
         },
       },{
+        id: 'social-researchgate',
+        title: 'ResearchGate',
+        section: 'Socials',
+        handler: () => {
+          window.open("https://www.researchgate.net/profile/Jeffrey-Mccrossin/", "_blank");
+        },
+      },{
       id: 'light-theme',
       title: 'Change theme to light',
       description: 'Change the theme of the site to Light',
