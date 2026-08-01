@@ -9,7 +9,14 @@ ninja.data = [{
     handler: () => {
       window.location.href = "/";
     },
-  },{id: "nav-contact",
+  },{id: "nav-publications",
+          title: "publications",
+          description: "Peer-reviewed articles, preprints, and other scholarly works.",
+          section: "Navigation",
+          handler: () => {
+            window.location.href = "/publications/";
+          },
+        },{id: "nav-contact",
           title: "contact",
           description: "Get in touch for research, clinical, teaching, or collaboration inquiries.",
           section: "Navigation",
