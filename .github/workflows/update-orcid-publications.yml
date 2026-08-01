@@ -1,0 +1,42 @@
+name: Update publications from ORCID
+
+on:
+  schedule:
+    # Quarterly: January, April, July, and October 1 at 08:00 UTC.
+    - cron: "0 8 1 1,4,7,10 *"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: update-orcid-publications
+  cancel-in-progress: false
+
+jobs:
+  update-publications:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check out website
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.13"
+
+      - name: Update bibliography from public ORCID works
+        run: python bin/update_orcid_publications.py
+
+      - name: Commit and publish changes
+        run: |
+          if git diff --quiet -- _bibliography/papers.bib; then
+            echo "The bibliography is already up to date." >> "$GITHUB_STEP_SUMMARY"
+            exit 0
+          fi
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add -- _bibliography/papers.bib
+          git commit -m "Update publications from ORCID"
+          git push
+          echo "Updated the website bibliography from ORCID." >> "$GITHUB_STEP_SUMMARY"
