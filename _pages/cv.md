@@ -1,14 +1,11 @@
 ---
-layout: cv
+layout: page
 lang: en
 permalink: /cv/
 title: CV
 nav: false
 nav_order: 5
-cv_format: rendercv # options: rendercv, jsonresume
-description: Download the latest CV or scroll below to see highlights from my clinical, research, and teaching work.
-toc:
-  sidebar: left
+description: Read the latest CV in your browser or download the PDF.
 ---
 
 <div class="cv-html-link">
