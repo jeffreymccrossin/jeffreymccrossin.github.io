@@ -12,7 +12,7 @@ description: Course materials and student workshop resources.
 
 <div id="teaching-gate" class="card p-4 my-3" style="max-width:480px">
   <h3 class="mt-0">Student Access</h3>
-  <p>Enter the course password to access PSE1208 workshop materials.</p>
+  <p>Enter the course password to access workshop materials for <em>Introduction à la psychoéducation</em>.</p>
   <form id="teaching-form">
     <div class="form-group mb-3">
       <input type="password" id="teaching-pw" class="form-control" placeholder="Course password" aria-label="Course password" autocomplete="off" required>

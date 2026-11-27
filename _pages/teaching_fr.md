@@ -11,7 +11,7 @@ description: Ressources et ateliers pour les cours enseignés.
 
 <div id="teaching-gate" class="card p-4 my-3" style="max-width:480px">
   <h3 class="mt-0">Accès étudiant</h3>
-  <p>Entrez le mot de passe du cours pour accéder aux documents de l’atelier PSE1208.</p>
+  <p>Entrez le mot de passe du cours pour accéder aux documents de l’atelier <em>Introduction à la psychoéducation</em>.</p>
   <form id="teaching-form">
     <div class="form-group mb-3">
       <input type="password" id="teaching-pw" class="form-control" placeholder="Mot de passe du cours" aria-label="Mot de passe du cours" autocomplete="off" required>
