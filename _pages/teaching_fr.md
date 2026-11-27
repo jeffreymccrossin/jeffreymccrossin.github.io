@@ -35,7 +35,7 @@ description: Ressources et ateliers pour les cours enseignés.
 <script>
 (function () {
   const K = "pse1208_auth_v1";
-  const H = "c965848b6f2eb76f98bc54d40928d8d5948f6e5082e12c223718d3584f96a694";
+  const H = "adc546d7bec3e889a6864ffeadd69b0e85410e2cdacb748a0922370506e2a150";
   const gate = document.getElementById("teaching-gate");
   const content = document.getElementById("teaching-content");
   const form = document.getElementById("teaching-form");
